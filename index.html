@@ -728,6 +728,14 @@ video[data-sc-scrub].sc-has-clip { opacity: 1; }
   .bar nav a { flex: none; }
   .site { padding-top: var(--bar-h, 0px); }
 }
+@media (max-width: 760px) {
+  .sc-grain, .brick, .stamp, .plate, .sparks, .wm, .hero-burger, [data-sc-progress] { display: none !important; }
+  .hero { min-height: auto !important; height: auto !important; }
+  .press-zone { position: static !important; transform: none !important; padding: 1.2rem 0 0 !important; }
+  .word-wrap { position: static !important; }
+  .word { font-size: clamp(3.2rem, 20vw, 5rem) !important; }
+  .hero-sub { position: static !important; display: block !important; width: auto !important; left: auto !important; right: auto !important; transform: none !important; margin: .6rem 0 0 !important; font-size: .7rem !important; letter-spacing: .08em !important; white-space: normal !important; text-align: left !important; }
+}
 </style>
 </head>
 <body>
